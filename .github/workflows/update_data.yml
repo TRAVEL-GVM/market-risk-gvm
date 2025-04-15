@@ -2,7 +2,7 @@ name: Atualizar dados Yahoo Finance
 
 on:
   schedule:
-    - cron: '15 19 * * *'  # Executa diariamente às 18:15 UTC
+    - cron: '10 18 * * *'  # Executa diariamente às 18:15 UTC
   workflow_dispatch:       # Permite execução manual
 
 jobs:
